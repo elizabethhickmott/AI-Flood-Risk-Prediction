@@ -1,6 +1,6 @@
 # AI-Flood-Risk-Prediction
 
-I am creating a poster for the BCSWoman Lovalace Colloquium. This si a current trained base model
+I am creating a poster for the BCSWoman Lovalace Colloquium. This is a current trained base model
 for predicting flood risk based on synethetically generated values. In the future, I would want to use real data.
 
 
