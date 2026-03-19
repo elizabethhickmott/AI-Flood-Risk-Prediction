@@ -75,8 +75,7 @@ ConfusionMatrixDisplay.from_predictions(y_test, predictions) #create a confusion
 plt.title("Flood Risk Prediction Confusion Matrix")
 plt.show()
 
-
-example = [[35, 2.8, 75, 25]] #hypothetical situation - can the model predict correctly?
+example = pd.DataFrame([[35, 2.8, 75, 25]], columns=X.columns) #hypothetical situation - can the model predict correctly?
 
 prediction = model.predict(example) #returns an array e.g. [0], [1], or [2]
 
